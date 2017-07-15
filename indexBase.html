@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app = 'myApp'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+
+
+    <title>Game of  Thrones</title>
+  </head>
+  <body>
+      <nav-component></nav-component>
+
+      <section>
+          <table>
+            <tr width="90%">
+              <th width="40%">
+                <div class="progress">
+                  <div class="indeterminate"></div>
+                </div>
+              </th>
+              <th width="60%">
+                <carousel-component/>
+              </th>
+            </tr>
+          </table>
+      </section>
+
+      <footer-component/>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+      <script src="app/app.js"></script>
+      <script src="app/topNavComponent/navCtrl.js"></script>
+      <script src="app/topNavComponent/carouselCtrl.js"></script>
+      <script src="app/topNavComponent/footerCtrl.js"></script>
+  </body>
+</html>
